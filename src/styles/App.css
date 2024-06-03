@@ -1,0 +1,16 @@
+.main-wrapper{
+  padding: '60px';
+}
+
+.no-results{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .main-wrapper {
+    padding: 20px;
+  }
+}
